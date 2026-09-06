@@ -7,5 +7,6 @@ import java.util.List;
 public record Resource(
         Descriptor descriptor,
         ResourceType type,
+        ResourceKind kind,
         List<ResourceDefinition> definitions) {
 }
