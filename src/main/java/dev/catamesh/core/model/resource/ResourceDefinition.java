@@ -1,4 +1,4 @@
-package dev.catamesh.core.model;
+package dev.catamesh.core.model.resource;
 
 import dev.catamesh.core.model.schema.DataSchema;
 import dev.catamesh.core.model.shared.SemVer;

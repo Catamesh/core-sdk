@@ -2,7 +2,8 @@ package dev.catamesh.core.model;
 
 public enum DocumentKind {
 
-    DATA_PRODUCT("data-product");
+    DATA_PRODUCT("data-product"),
+    DEPLOYMENT("deployment");
 
     private final String value;
 

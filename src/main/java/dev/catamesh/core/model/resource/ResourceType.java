@@ -1,4 +1,4 @@
-package dev.catamesh.core.model;
+package dev.catamesh.core.model.resource;
 
 public enum ResourceType {
 
