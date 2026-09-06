@@ -1,4 +1,6 @@
 package dev.catamesh.core.model;
 
-public class Owner {
+import java.util.List;
+
+public record Owner(String name, List<Contact> contacts) {
 }

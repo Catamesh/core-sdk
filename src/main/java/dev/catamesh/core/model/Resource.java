@@ -1,6 +1,11 @@
 package dev.catamesh.core.model;
 
-public class Resource {
+import dev.catamesh.core.model.shared.Descriptor;
 
-    private List<ResourceDefinition> definitions;
+import java.util.List;
+
+public record Resource(
+        Descriptor descriptor,
+        ResourceType type,
+        List<ResourceDefinition> definitions) {
 }
